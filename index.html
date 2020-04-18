@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+      <div class="container">
+        <!--This part under this comment is that piece of code which forms the navigation bar on my website-->
+        <head>
+          <meta charset="utf-8">
+            <title>Home Page(index.html)</title>
+      <link href="./Bootstrap_4.3.1/css/bootstrap.css" 
+       rel="stylesheet" type="text/css"/>
+       <nav class=".nav-items">
+         <ul class="nav nav-pills nav-fill">
+            <a class="nav-link active nav-item" href="index.html">Home</a>
+            <a class="nav-link nav-item" 
+                href="John_AboutMe.html">About Me</a>
+            <a class="nav-link nav-item" 
+                href="John_Resume.html">Resume</a>
+            <a class="nav-link nav-item"
+                href="John_Projects.html">Projects</a>
+            <a class="nav-link nav-item"
+                href="John_ContactMe.html">Contact Me</a>
+          </ul>
+          </nav>
+        </div>
+    </head>
+    
+    <section>
+      <div  class="container jumbotron">
+        <class="display-4">
+        <h1> Rhea John's Engineering Portfolio</h1>
+        <p>I am Rhea John. I attend Dublin High as a Freshman this year and am taking Intro to Computer Science Principles as my elective.</p>
+        <a href="John_AboutMe.html"> Continue Reading...</a>
+        <hr class="my-4">
+        </div>
+    </section>
+    
+  <section>
+    <div class="container">
+         <!-- Used Layout from Bootsrap https://getbootstrap.com/docs/4.3/components/card/ -->
+      <div class="flex row">
+        <div class="card" style="width: 35.5rem;">
+            <div class="card-body">
+              <h6>Project</h6>
+              <h3>MIT App Inventor Project</h3>
+              <h5>CSP</h5>
+                <br>
+              <p> As a Freshman in Dublin High, my elective class is Intro to Computer Science Principles and one of the projects we made was using App Inventor. My partner Jason and I improved a simple tutorial of a Space Invaders game. We enhnaced the goals, the features, fixed the small bugs, and created the small tutorial to an actual fun and amazing game.</p>
+              <a href="John_Projects.html"> Continue Reading...</a>
+              <br>
+                <br>
+                <!--this link links the MIT App Inventor image on this page-->
+                  <img 
+        <a href='http://appinventor.mit.edu/explore/ai2/beginner-videos'>
+         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQwAAAC8CAMAAAC672BgAAABPlBMVEX///+kzkeSJnz2jTX3jTVZWFpNVVyZbE5RVlv2hB3+kDP5jjTkhzv2hyP2izDehT1NTU/4oVv93seysrP48ff+7N/8176ncUygzDygsVj7z6/S5qn6xaCl0UVQUFKRFn6KAHL+9u/IyMjs7Ozi4uPV1dW9vb3m8dH19fV5eXr949GmpaZsa21JSEv7iDRgYGLgydr3kz/6v5WYl5jKnsC1e6bC3o3+8ur3mEv5sHr4pWXt9dz5/PKw1GCOGHeTJ3u52XbZ6reiUpC1wkTHYV32fgD5r3eIiInZutLK4pnu3+ueQorAjLTSrcquZp7o1OPf7sO1122bPYes01msYpzFmbqCAGenP3WeNXatyEXX2ZjpgEHYcVGuR23Ft0DXqTzmnDncdU68vkPOaFjbpjyuXYrZy8KueFPewa07OjyVFryzAAAO1ElEQVR4nO1dCWPbthVWTLIr7YGVLNNTFZnWbV2sQqmJjjhSTjt3nKRZ23U9tu7K//8DA/AAEKQoW1Z9kDC/HCIhkAQ+vQvAI5nJpEiRIkWKmOP5t+seef/F4UU25Prx8rty+dWddY48vFco3Lp90e25RuzcLc82NjbKj1+e+9BHmIpbtwofDy6hWdeCNxuECoxZ+fXOuY48eECoICg8vH9JrbtS3HlV3tiYUzLmG7P5m9WPPHzIqSBsFF5cXhuvCC/fljcCWN10vChIXBA6bj261KZeNnZel2cbYZTfrmI6Tm4FqaB0PEiw6XjzYZEKYjpmn84yHQfvF6nA2CvcS6ibffe4HEUFpWP+/LQjsTvdi+KCCMdeEk3HztsIDcE2dM505fG7pYfeLkSKhTAdJ1fYjYvAzrezGXMhjIQF4SjfjdaVk4+nUUHpeJ8oN/s82liE6NiIiNDvRxuL5JqOlwvGYh61R6KOkJs9xViEhKOQjAidxd5+z+cRSsJJKX8nu9nbeyuIBafjYwJMh4i9V8NsJiL0kwerU0HpiHuEfucVp2Iuacdc+n9Ba1iEHoi9V2Qj1hE6Hqgvk4BoRQGUP9w5fLGisQjTEdsIfWe2qCERJEQUlb8+t1hwOuJqSHdWkoOoOvtfryMXCSGDdXYuAs7lBM1vBBlnaEYAN4qMs1i5QWScKhc3VU3mEVE5hKfKk7GKR+EUqUlG5IgsUkwCu2qSsY5sKCsZixysxIi6ZET99DeaDNlxLJ/PEMVqk3FO0bg5ZMxPJePmBV3RFPgc3Rgy5tK/ZRXUJGMeoRaLU8ILCypqknGWdqSjVh+zso/lZBQkqEFGlAzMXr+7I/BYmjANkFF4dODjoxJkROKVVPtd2adMJqPwUKp0cua6a7LIkEWkLCcxvfVFI0CGvIx6lmAkjYwNZjeBFGnlfcc3GxIZgYWh24m2GadmIWDMHt8FkPqfyryiLBlEMA7uAc72MXEm42zMKKi+tD4sSgYskX1c0ZckgoxTBiP8K6Ivz7mi+GR8JCc6WzsSQ8Z8eXAlCchrcgR3r4KMAknnOzzHWmPcyVgNM5KY8a5MwrDZDJMBevGQnOfeTSNjPntLDnl9982dlzs7O5nDw8P7J7dpxsX98yxCJ4CMZVoilc/+uixT+MF5shPiTcZqU+LljbtLUx8PH71fnY54k3G2TJA8vzNShA9WTuOJKRmVkf09xg84hNrfn0VQwfmYlV+3zjzbwekJXnt7WHZ+fILxt1HlCjq3Mir27mA63jRNcxOg/fT3pz//MAszwjVkxVtwbi/RFUzDk19+/c3Tv6FA+LpeblLcjgMnxSPPRMiydAxN08iHvrW1ubn10+8/zyP4KH9a9cz3I4Rjb+/JL79pmANyNXI9/B/etCyEzO3L7OZqGJg6tEhjYNu6jkXkHz/v7wfNRfnUDPoQwpZj78dfPcoDXI0RQv7iDRQDMjKepbFGsVayf4SUrU3t6Xyfmw0cl86Wp89HIRB+7f3zN8IEnB84hyvCn1iQsYtATLGu4F+LblCt0aChm1u//7Av3Mj5uJDZIFQA14Rq/4Jb/IKxICOTM63coLjbGY0qGCN7uzggdsQSdGhPWU7kgo5U28dVf681bA/DfuY9WNG9J5gKIALzbaLcpBS+4LPOZXd0FdhRrRjtTjRkMSHe9L4nwgGDMwlV13Fcn41e1sj2QlXYoO1f3zBtwBKRK0Vf8A9245LRmXhYkomt29r8fRacAaVoO4ZhiO43XLznNkJ1TgpYLDzGhYVyxTi40LVQKY5N0PPNn+blhcFID/fe6PO9KiWjGq70fu8XMJtYKib2Zbf4clHUEHWEm9q/F77r4u67eb7XchzDcRaC04NfwZlaZtKpIBgQq69rZoRSd/v9rr9X7xnt2mKlsUXIRONYGMg/jM4YEW+4Qs3IMUsJYS7R4IIbdW2oTJFuTdc92kbYcMYiiLggTBAqrntsBce4ClgLCZNn6/+2OUstLnCP1u9QTiUdoRgVt9fF2goWX3jmmngW80B7HXi6GH5rMDED+2wiRNfFeFzMiMDsCFKSDE2ak2FDWo1PhIhPNnel8eE6DrfUJAOI0NjcDOsrn6wR03j+rBlsq0jG1uaaiIrjk44/rY3/XHfTLx79L9fE4qg++egbayKbkpGScWPI+PKLNaGizfjqz+tCQdfqba0JFYMuTwTcuhSJa3y1WpOiUTFAobtqksEHIJwAvmTMF6vFJl+thU8lyUjVxMdX60JFA9pPXauPXhp0+UjJkJCSIaH/xSnD9C9Cn6oP4f/7l3Xxv+tu+oXjCK077beJ1Fh/9zFBmpgSZ6E4m/KVcgVFJCrPCeuaZanFxhGSomwtOB3OFxA0f9+fO6fFSi3C2znkLw6JpSMxFpPkQqwn+XVoCSpddx8uCsUtS5dEQSwW+ft89OoP3SQy6CAXTROb2CbDzpnQOchm4stqwiLwFTZpTVHwQ3MdLUjpUkA47AnPjkUlsslTnUM2VPyVFYgutHrFHAK60DjZI7bOxGL9pzawQxMhOREi1dy3oJLdpP230KCSqRyZPDV4nNgs0FHJI1JB1QCNIVeFJEIGzIYgwl+DFdM8FpqO6FEleh5KjnWUTPEYARXwA/PCysCy/O7yFXexGC8MLdErP2MHuyN2C4FuTq6nN38UJdoDzTKncgqTfWRaPAVDeAs+y8e7TMxtIGGnZMHJ9K2kKopmkcTecThi2vaQLnodSFPg056YwEmo05UBuVFBXz9p8LqxayI0jQoeSzSHWvqji/+ZsYhIh6sMPITGl97oS8PRYEmOX2VC75wRNlTOalruQyu7kdQmH/bUtLiSiHur4DaK5EdX58euh/zxCA/CLBQ2FjcFpS0kD0iIVEzVGq2fB6MJuFlmMJCXzIjqotAZw51sJDQzBzdUQ3wUqenA7vRodN1NiQFohG7mbq6xCGI0TW5gmSJFihQpUqRIkSJFigRhVAQEZjBZmVgkq7D9XfnLAK683ZeC3Wf0mUnIk8psE8rEg4NYgUkmwCvsgAC8iDMnEAPE7tfdDpTRWR2RDW3DBLGVw9sVJK27ssU2K8HLBDKmFlsQORJF5EEQdD5cLD3aFizAARmBtXrKmipkjC020WmJ2axdxJcGOEE2zd8QkuEvzbN1aUXIGIlFZX8ShwoL6SrtPIENc8NcMoKZXpoyatJBfKVZdGhk8jQVy2PuxIY1NiADDCibK4aH5JnadbX/QlFEPBVFN9l64wDxhCUNsSIwoExSOhQDalc0VILd62r/hWJgiQwVi5nLLZGFIB7XSCVD99UmQx/ERMlQaTnliDkOagNoCXlUJM9M4XYEyNBDZGi6Yg+NGPNsJp3fcTa1/LvRuG+VvQlDCfKKVSKjYklZ0tST2ognY5DAgj3By4anrAbJoNVUIqNj8rRxajVGEJHyzBThYWx4QmTYZihGRpH+vprnQbJWiTxql5RYHkvfAt8KEWhYTVS7s3VggfhDwhsWhF14Lqa3C3mQzN3aEIYtSoZSNmNKAwjrCGwHDjWmNLyyJiO414D1lRrQMBm6aq4VjCWOMKbUKlhTFkp1KhBqs7wlGwYwYW+ilppUTHAJxcy2SfsGXBC7OaaywoZqoCZhb6KYa+2YItCUbykgsVbOktyJzUgKkaGWZBRZj2xmA5iftSoQmhKhofWi4wzFyBiwyLJC0snFwyFo3DlAlBuTznJABLpgM9RSk5zlz1Md8QQuKihUaPCuScejkWRIIbwS8CDOpEH3NrvDgu12YCAPQzUbiFr0JgpJxoiGD3zsziYAWf9sBFJCv7NhoL8YgSpERgcSX9lAfQBjd4tN+0MoCmISGYEqFnQVYYTKpnBGSI6zMmxOmNoTm92Zt2BAFbIZE3AmJpsXh4lgk8175oAAjeyCa1XbZkyZzWC722Q8L5YHJjDVQR8fvcRmqDRQq3hWcDmMLB6ZfG6XDz6IDkUO4dVyrSzO8tfScP/9/u4yg0JMiLyiJurqukpkbMMKiCnuX7TxTjH87QS+oJDJYGvRqpCRIkWKFClSpEiR4qJRyzfpZz1P0CTvAWvBZl2qk6+RUvqSsCY+IA8H4aIGVMaoZxpQWiPbvJQcU2t2uw3/GtWId43FBF3Xpb2uuk4Ww+niNsNm9pjXqbtuI1Nz3TbZ6eGPoeuSzab7uVFzad3s5yo5VRVqVzOfyblIcSPTdPjJmv414omeAW2rZo1eu22Qt0zWHLLZd7JDVqeezWIysoZLfvm20840svS5jseOkanTyu12r5HpOka/hWs7+EtyAsPAxfWG6xjHPYew0cziknbUCwrjgYbDXqVYzRIJqfWdHiaDdLXVFi8S5GQYpICQ0eo7Q/qywS50HYDJIMW8ZOjQF1b2nH6N7GTrmAy3Rq/RvoaeroCh04fXagIZeN8gZDRpicO02yfjGMggh2Eis/jIIBmGVMLIcKjk4VM0GRlwcAzR6mfzx1QdGBk9IRm4zWHJ6JOnnlIyGlmnAb2tO06+htECMrCYBcloZR3y3sqWiz9iLhmYghrW5BaVg+PhsOe4eWIz2sMh1hJuQRkZTr6P+0rJwCR2M9TaYJvhuK77OU/I6OWxHITJoGLGyDDax2CX4ohjIgj0KbfYgBJT72ICMBl0s8dfMsnIyFaxy+ke09916LQbDi4NktEnhqZpnEJGFpvTfjy5wDLcJIwcc8kYEvMBkjH0m8zJaJIX+YKQN1wDE9kKqUm/VXPFI4Sj1MRpVuOqJOSn6mMYRo0qDCutOaEHIvtk1HBXoTPYPhDXQSxEk1UjZGTy2SAZCwY0Hz57XNCmIu4auKHMgBLU/P4BfDIIfQYlA7sdoiVBb0LCjF6IjB4t9V0rdsjhV2THAnVi7jB6+MdekQzMH5BB3nUN54Cgq91gZDSyQTKwnekfY1PSzjBv0o2naHTdLAw33M/1Kv7HinHgHSKDheNN+mUWdN5wh/Cd44fjxC3xqBzH7BBO5GmFNlynRmK1rHEFnTsv8l14dXULD6Tq3S63GXi3HqhXI9/x0moXmGrCbq0LAzK81+jmW9LhVXZ2PD4bdik9jW63Rb8InT9FihQpUlw5/g9yqgEnY706iAAAAABJRU5ErkJggg=="style='max-width:100px'>
+            </div>
+        </div>
+          <hr>
+        <div class="card" style="width: 35.5rem;">
+            <div class="card-body">
+              <h6>Project</h6>
+              <h3>Scratch Project</h3>
+              <h5>CSP</h5>
+                <br>
+              <p>Another project we created in this class was one made on Scratch. We were given around a month and a partner to complete a fun and creative game. My partner, Kaif and I created the game "Unnatural Area". The goal of the game was to win the duel against your opponent and each level would get harder.</p>
+              <a href="John_Projects.html"> Continue Reading...</a>   
+      <a href='https://scratch.mit.edu/'>
+      <br>
+      <br>
+      <!--this link links the Scrath image on this page-->
+         <img src="https://clubrunner.blob.core.windows.net/00000400316/EventImages/e60a8166-7090-43cb-a7bd-4b3597b9025c-f8f5ac06-1f22-498a-9b76-76713af9eedc.jpeg"style='max-width:100px'>            
+            <section>
+    <div class="container">
+         <!-- Used Layout from Bootsrap https://getbootstrap.com/docs/4.3/components/card/ -->
+            <br>
+        </div>
+      </div>
+        </div>
+       </div>  
+      </div>
+      <br>
+    </section>
+ <!--This is my footer below-->
+    <footer>
+    <footer class="container">
+      <div class='jumbotron'>
+        <!--this links the instagram logo in the footer-->
+    <a href='https://www.instagram.com/'> <img src='https://i.pinimg.com/originals/ca/5b/4d/ca5b4df7080ab2cb871cae11baa791b1.png' style='max-width:100px'>
+    <!-- this links the Dublin High logo ion the footer-->
+    <a href='DHS2.png'>
+    <img src="Images/DHS2.png"style='max-width:90px'class="float-right">
+  </div>
+    </footer>
+
